@@ -932,37 +932,37 @@ build 3.4.exe: C_EXECUTABLE_LINKER__3.2e4_Debug CMakeFiles/3.4.dir/3/3.4.c.obj
   TARGET_PDB = 3.4.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target 3.6
+# Object build statements for EXECUTABLE target 3.8
 
 
 #############################################
-# Order-only phony target for 3.6
+# Order-only phony target for 3.8
 
-build cmake_object_order_depends_target_3.6: phony || CMakeFiles/3.6.dir
+build cmake_object_order_depends_target_3.8: phony || CMakeFiles/3.8.dir
 
-build CMakeFiles/3.6.dir/3/3.6.c.obj: C_COMPILER__3.2e6_Debug C$:/Users/basti/Documents/HEIG/PRG2/PRG2_exercice/3/3.6.c || cmake_object_order_depends_target_3.6
-  DEP_FILE = CMakeFiles\3.6.dir\3\3.6.c.obj.d
+build CMakeFiles/3.8.dir/3/3.8.c.obj: C_COMPILER__3.2e8_Debug C$:/Users/basti/Documents/HEIG/PRG2/PRG2_exercice/3/3.8.c || cmake_object_order_depends_target_3.8
+  DEP_FILE = CMakeFiles\3.8.dir\3\3.8.c.obj.d
   FLAGS = -g
-  OBJECT_DIR = CMakeFiles\3.6.dir
-  OBJECT_FILE_DIR = CMakeFiles\3.6.dir\3
+  OBJECT_DIR = CMakeFiles\3.8.dir
+  OBJECT_FILE_DIR = CMakeFiles\3.8.dir\3
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target 3.6
+# Link build statements for EXECUTABLE target 3.8
 
 
 #############################################
-# Link the executable 3.6.exe
+# Link the executable 3.8.exe
 
-build 3.6.exe: C_EXECUTABLE_LINKER__3.2e6_Debug CMakeFiles/3.6.dir/3/3.6.c.obj
+build 3.8.exe: C_EXECUTABLE_LINKER__3.2e8_Debug CMakeFiles/3.8.dir/3/3.8.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\3.6.dir
+  OBJECT_DIR = CMakeFiles\3.8.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = 3.6.exe
-  TARGET_IMPLIB = lib3.6.dll.a
-  TARGET_PDB = 3.6.exe.dbg
+  TARGET_FILE = 3.8.exe
+  TARGET_IMPLIB = lib3.8.dll.a
+  TARGET_PDB = 3.8.exe.dbg
 
 
 #############################################
@@ -1040,7 +1040,7 @@ build 3.3: phony 3.3.exe
 
 build 3.4: phony 3.4.exe
 
-build 3.6: phony 3.6.exe
+build 3.8: phony 3.8.exe
 
 build PRG2_exercice: phony PRG2_exercice.exe
 
@@ -1054,7 +1054,7 @@ build Training: phony Training.exe
 #############################################
 # Folder: C:/Users/basti/Documents/HEIG/PRG2/PRG2_exercice/cmake-build-debug
 
-build all: phony PRG2_exercice.exe 1.1.exe 1.5.exe 1.6.exe 1.7.exe 1.8.exe 1.10.exe 1.11.exe 1.12.exe 1.13.exe Training.exe 2.1.exe 2.2.exe 2.3.exe 2.12.exe 2.15.exe 2.16.exe 2.18.exe 2.19.exe 2.20.exe 2.21.exe 2.22.exe 2.23.exe 3.1.exe 3.2.exe 3.3.exe 3.4.exe 3.6.exe
+build all: phony PRG2_exercice.exe 1.1.exe 1.5.exe 1.6.exe 1.7.exe 1.8.exe 1.10.exe 1.11.exe 1.12.exe 1.13.exe Training.exe 2.1.exe 2.2.exe 2.3.exe 2.12.exe 2.15.exe 2.16.exe 2.18.exe 2.19.exe 2.20.exe 2.21.exe 2.22.exe 2.23.exe 3.1.exe 3.2.exe 3.3.exe 3.4.exe 3.8.exe
 
 # =============================================================================
 # Built-in targets
