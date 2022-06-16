@@ -33,3 +33,13 @@ add_executable(3.2 3/3.2.c)
 add_executable(3.3 3/3.3.c)
 add_executable(3.4 3/3.4.c)
 add_executable(3.8 3/3.8.c)
+add_executable(3.9 3/3.9.c)
+
+add_executable(4.2 4/4.2.c)
+add_executable(4.3 4/4.3.c)
+add_executable(4.4 4/4.4.c)
+add_executable(4.5 4/4.5.c)
+add_executable(4.9 4/4.9.c)
+
+add_executable(5.1 5/5.1.c)
+add_executable(5.2 5/5.2.c)
